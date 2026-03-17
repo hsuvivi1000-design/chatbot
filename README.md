@@ -1,4 +1,4 @@
-# AI Chatbot 專案名稱
+# AI Chatbot
 
 ## 小組：第六組
 
