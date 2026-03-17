@@ -5,7 +5,8 @@
 ### 組員：
 
 * 姚谷伝
-* 組員2
+* 許瀞云
+* 林湘紜
 
 ## 專案簡介
 
@@ -13,6 +14,7 @@
 例如：本專案是一個使用 LangChain 與 Gemini API 製作的 AI 聊天機器人，具備基本的對話與記憶功能。
 
 ## 目前功能
+PDF 文件與圖片上傳、儲存與讀取歷史紀錄
 
 ## 執行方式
 
@@ -47,8 +49,8 @@ GEMINI_API_KEY=your_api_key_here
 
 ### 問題 2
 
-問題：
-解法：
+問題：同時在git hyb 上編輯和pull到antigravity編輯內容不會同步，或是內容被覆蓋掉
+解法：不要同時編輯，若有覆蓋的狀況可以在antigravity的歷史紀錄中找回。
 
 ---
 
@@ -60,6 +62,10 @@ GEMINI_API_KEY=your_api_key_here
 
 林湘紜
 
+許瀞云
+
+在本次課程中我認識了一個團隊協作便捷的路徑-**git hub**。使用這個方法可以讓同一份專案及時同步到其他人手上，但這個方法也有其風險，例如課上多次強調的**api**的不可公開。在使用GitHub同步的同時，更要注意是否安全開發。
+
 ---
 
 ## GitHub 專案連結
@@ -68,3 +74,5 @@ GEMINI_API_KEY=your_api_key_here
 https://github.com/ommi0705/chatbox
 林湘紜
 https://github.com/piyan-lab/work2
+許瀞云
+https://github.com/hsuvivi1000-design/chatbot.git
