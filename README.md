@@ -10,8 +10,7 @@
 
 ## 專案簡介
 
-請簡要說明本專案的用途。
-例如：本專案是一個使用 LangChain 與 Gemini API 製作的 AI 聊天機器人，具備基本的對話與記憶功能。
+本專案是一個使用 LangChain 與 Gemini API 製作的 AI 聊天機器人，使用 Gradio 作為網頁介面，具備基本的對話與記憶功能，並可上傳圖片與PDF檔進行分析，還可切換及新增不同的AI角色設定進行對話。此外，記憶功能以JSON檔案儲存，方便使用者查看與供AI進行回憶對話紀錄。
 
 ## 目前功能
 PDF 文件與圖片上傳、儲存與讀取歷史紀錄
@@ -25,6 +24,9 @@ PDF 文件與圖片上傳、儲存與讀取歷史紀錄
 ```bash
 https://github.com/hsuvivi1000-design/chatbot.git
 ```
+2. 開啟Antigravity，點選clone repository貼上專案網址開啟
+
+3. 呼喚AI Agent輸入文字執行專案
 
 ---
 
@@ -62,6 +64,8 @@ GEMINI_API_KEY=your_api_key_here
 
 林湘紜
 
+在開發聊天機器人時，了解到以前從來沒學過的框架**LangChain**，可以很好的供使用者於不同的AI模型間進行切換，以及讀取和生成內容。而且這次專案也嘗試了使用 **Gradio**來做網頁GUI，可以與以前用 **Streamlit**來做的頁面比較不同之處。除此之外，也發現AI雖是一個很好的工具，但學會如何正確且精準地問問題，這樣才能有最快、最好的結果產生，不然經常需要耗費許多時間要求AI除錯及修改程式。而且當**Claude Opus 4.6**額度用完時，用**gemini 3.1 pro**來做才發現，不同AI專精的項目真的不相同。
+
 許瀞云
 
 在本次課程中我認識了一個團隊協作便捷的路徑-**git hub**。使用這個方法可以讓同一份專案及時同步到其他人手上，但這個方法也有其風險，例如課上多次強調的**api**的不可公開。在使用GitHub同步的同時，更要注意是否安全開發。
@@ -72,7 +76,9 @@ GEMINI_API_KEY=your_api_key_here
 
 姚谷伝 
 https://github.com/ommi0705/chatbox
+
 林湘紜
 https://github.com/piyan-lab/work2
+
 許瀞云
 https://github.com/hsuvivi1000-design/chatbot.git
